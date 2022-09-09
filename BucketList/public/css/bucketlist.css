@@ -1,0 +1,57 @@
+.main-title{
+    margin-left: 25rem;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    transform: rotate(-90deg);
+}
+.mains {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    font-family: cursive;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.main {
+    padding: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60rem;
+    height: 50rem;
+    border: solid 10px rgb(50, 50, 50);
+    border-radius: 10px;
+    box-shadow: rgba(140, 140, 140, 0.4) -5px 5px, rgba(100, 100, 100, 0.3) -10px 10px, rgba(60, 60, 60, 0.2) -15px 15px, rgba(30, 30, 30, 0.1) -20px 20px, rgba(10, 10, 10, 0.05) -25px 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly
+  }
+ul a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+ul a:hover {
+    background-color:rgb(50, 50, 50) ;
+    color: white;
+}
